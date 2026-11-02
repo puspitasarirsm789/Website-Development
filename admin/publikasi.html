@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Admin Publikasi — Toko Merchandise OSIS SMANIC</title>
+  <meta name="description" content="Area administrasi internal toko merchandise OSIS — hanya untuk pengurus OSIS SMANIC.">
+  <meta name="theme-color" content="#0f766e">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='88'>🛍️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/admin.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Lewati ke konten utama</a>
+
+  <div class="admin-layout" id="admin-layout">
+    <!-- =================== SIDEBAR ADMIN =================== -->
+    <aside class="admin-sidebar" id="admin-sidebar">
+      <div class="admin-sidebar__brand">
+        <img src="../assets/img/logo.svg" alt="Logo OSIS SMANIC" width="36" height="36">
+        <div>
+          <span class="admin-sidebar__title">Admin OSIS</span>
+          <span class="admin-sidebar__subtitle">Toko Merchandise</span>
+        </div>
+      </div>
+
+      <nav class="admin-sidebar__nav" aria-label="Navigasi admin">
+        <a class="admin-sidebar__link" href="./index.html">Beranda</a>
+        <a class="admin-sidebar__link" href="./produk.html">Produk</a>
+        <a class="admin-sidebar__link" href="./kreator.html">Kreator</a>
+        <a class="admin-sidebar__link" href="./pesanan.html">Pesanan</a>
+        <a class="admin-sidebar__link" href="./pembayaran.html">Pembayaran</a>
+        <a class="admin-sidebar__link" href="./aspirasi.html">Aspirasi</a>
+        <a class="admin-sidebar__link" href="./dsc.html">DSC</a>
+        <a class="admin-sidebar__link" href="./dana.html">Dana</a>
+        <a class="admin-sidebar__link" href="./publikasi.html">Publikasi</a>
+      </nav>
+
+      <a class="admin-sidebar__back" href="../index.html">← Kembali ke Situs Publik</a>
+    </aside>
+
+    <!-- =================== KONTEN ADMIN =================== -->
+    <div class="admin-shell">
+      <header class="admin-topbar">
+        <h1 class="admin-topbar__title">Admin Publikasi</h1>
+        <div class="admin-topbar__actions">
+          <span id="admin-user-chip" class="badge">Memuat sesi…</span>
+        </div>
+      </header>
+
+      <main class="admin-main" id="main-content" role="main">
+
+      <div class="admin-panel">
+        <div class="admin-panel__header"><h2 class="heading-3">Memuat panel…</h2></div>
+        <div class="skeleton skeleton--card"></div>
+        <p class="form-hint">Isi panel dirender setelah sesi admin terverifikasi dengan passcode.</p>
+      </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Kontainer notifikasi non-blocking (diisi utility/admin-core.js) -->
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+  <script type="module" src="../assets/js/utils.js"></script>
+  <script type="module" src="../assets/js/admin-core.js" defer></script>
+
+</body>
+</html>

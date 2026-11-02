@@ -1,0 +1,37 @@
+{
+  "_note": "Contoh tiket usulan desain DSC (Design Submission Committee) untuk pengujian antarmuka. Tiket asli tersimpan di localStorage (kunci: merch_tickets_v1).",
+  "status_terms": {
+    "menunggu-review": "Menunggu Review",
+    "perlu-revisi": "Perlu Revisi",
+    "disetujui": "Disetujui"
+  },
+  "records": [
+    {
+      "ticket_code": "DSC-2026-0012",
+      "title": "Desain kaos angkatan 2026",
+      "creator_name": "Raka Aditya Pratama",
+      "status": "perlu-revisi",
+      "submitted_at": "2026-10-26T09:15:00+07:00",
+      "updated_at": "2026-10-31T15:40:00+07:00",
+      "note": "Perbaiki kontras teks pada sisi belakang agar terbaca saat disablon."
+    },
+    {
+      "ticket_code": "DSC-2026-0014",
+      "title": "Mockup hoodie kegiatan olahraga",
+      "creator_name": "Salsabila Putri Maharani",
+      "status": "menunggu-review",
+      "submitted_at": "2026-11-01T11:30:00+07:00",
+      "updated_at": "2026-11-01T11:30:00+07:00",
+      "note": null
+    },
+    {
+      "ticket_code": "DSC-2026-0009",
+      "title": "Logo stiker seri motto",
+      "creator_name": "Dimas Aryo Seno",
+      "status": "disetujui",
+      "submitted_at": "2026-10-20T14:02:00+07:00",
+      "updated_at": "2026-10-24T10:11:00+07:00",
+      "note": "Masuk produksi batch November bersama paket stiker motto."
+    }
+  ]
+}

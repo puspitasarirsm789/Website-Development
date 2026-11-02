@@ -1,0 +1,41 @@
+{
+  "school_name": "SMA Negeri 1 Contoh",
+  "org_name": "OSIS SMANIC",
+  "tagline": "Kenakan Karya, Banggakan Sekolah",
+  "admin_contact": "Sekretariat OSIS SMANIC — Ruang 204, Gedung B, Lantai 2 · Senin–Jumat, pukul 07.00–15.00 WIB",
+  "payment_methods": [
+    {
+      "id": "qris",
+      "name": "QRIS",
+      "type": "qris",
+      "image": "./assets/img/qris/qris-placeholder.svg",
+      "width": 600,
+      "height": 600,
+      "instruction": "Scan kode QRIS di pos pembayaran kegiatan sekolah atau tunjukkan gambar QRIS kepada petugas kantin, lalu simpan bukti pembayaran untuk diunggah pada halaman konfirmasi."
+    },
+    {
+      "id": "transfer-mandiri",
+      "name": "Transfer Bank Mandiri",
+      "type": "bank_transfer",
+      "bank_name": "Bank Mandiri",
+      "account_number": "1234567890",
+      "account_name": "Kas OSIS SMA Negeri 1 Contoh",
+      "instruction": "Transfer sesuai nominal yang tertera (termasuk kode unik, jika ada), lalu simpan bukti transfer untuk diunggah pada halaman konfirmasi."
+    }
+  ],
+  "pickup_info": "Pengambilan merchandise dilakukan di Ruang 204 (Sekretariat OSIS) pada hari kerja pukul 15.15–16.30 WIB. Bawa tangkapan layar status pesanan yang bertanda Siap Diambil.",
+  "osis_fee_percent": 10,
+  "admin_passcodes": [
+    {
+      "role": "admin",
+      "label": "Admin OSIS — kelola konten, pesanan, dan keuangan",
+      "hash_sha256": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9"
+    },
+    {
+      "role": "seller",
+      "label": "Penjual/Kreator — kelola produk sesuai bagiannya",
+      "hash_sha256": "e0c6af11a46651c344487c07a41b24ced75e81b9804bc6ab4af1c9472e4956ea"
+    }
+  ],
+  "order_deadline_note": "Pemesanan dibuka hingga tanggal 20 pada setiap bulan. Pesanan setelah tanggal tersebut diproses pada batch produksi periode berikutnya."
+}

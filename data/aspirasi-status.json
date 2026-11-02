@@ -1,0 +1,47 @@
+{
+  "_note": "Contoh tiket aspirasi untuk pengujian antarmuka. Tiket asli tersimpan di localStorage (kunci: merch_tickets_v1).",
+  "status_terms": {
+    "diterima": "Diterima",
+    "ditinjau": "Sedang Ditinjau",
+    "diproses": "Sedang Diproses",
+    "selesai": "Selesai"
+  },
+  "records": [
+    {
+      "ticket_code": "ASP-2026-0031",
+      "title": "Usul keran minum tambahan di dekat laboratorium",
+      "category": "Fasilitas",
+      "status": "diproses",
+      "submitted_at": "2026-10-27T08:41:00+07:00",
+      "updated_at": "2026-11-01T14:10:00+07:00",
+      "response": "Proposal sudah disampaikan ke bagian sarana; menunggu penjadwalan pemasangan."
+    },
+    {
+      "ticket_code": "ASP-2026-0027",
+      "title": "Penyesuaian jam kebersihan kelas",
+      "category": "Pelayanan",
+      "status": "ditinjau",
+      "submitted_at": "2026-10-24T11:22:00+07:00",
+      "updated_at": "2026-10-29T09:16:00+07:00",
+      "response": "Masukan sedang dibahas bersama wali kelas pada rapat mingguan."
+    },
+    {
+      "ticket_code": "ASP-2026-0019",
+      "title": "Papan informasi kegiatan ekstrakurikuler",
+      "category": "Ekstrakurikuler",
+      "status": "selesai",
+      "submitted_at": "2026-10-16T13:35:00+07:00",
+      "updated_at": "2026-10-27T16:48:00+07:00",
+      "response": "Papan informasi telah terpasang di lobi Gedung A dan diperbarui setiap Senin."
+    },
+    {
+      "ticket_code": "ASP-2026-0044",
+      "title": "Keluhan tentang sound system aula",
+      "category": "Fasilitas",
+      "status": "diterima",
+      "submitted_at": "2026-11-01T10:02:00+07:00",
+      "updated_at": "2026-11-01T10:02:00+07:00",
+      "response": null
+    }
+  ]
+}

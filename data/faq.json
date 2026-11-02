@@ -1,0 +1,76 @@
+{
+  "groups": [
+    {
+      "id": "pemesanan",
+      "title": "Pemesanan",
+      "items": [
+        {
+          "q": "Bagaimana cara memesan merchandise di toko ini?",
+          "a": "Pilih produk beserta ukurannya di halaman Katalog, tambahkan ke keranjang, lalu isi data pemesan pada halaman Checkout. Setelah itu ikuti instruksi pembayaran hingga pesanan Anda terverifikasi."
+        },
+        {
+          "q": "Apakah bisa memesan beberapa produk sekaligus dalam satu transaksi?",
+          "a": "Bisa. Tambahkan semua produk yang diinginkan ke keranjang terlebih dahulu, lalu checkout secara serentak dalam satu transaksi agar bukti pembayaran cukup diunggah sekali."
+        },
+        {
+          "q": "Bisakah saya mengubah atau membatalkan pesanan yang sudah dikirim data pemesannya?",
+          "a": "Perubahan hanya bisa dilakukan selama pembayaran belum terverifikasi. Ajukan permintaan melalui Sekretariat OSIS di Ruang 204 dengan menyebutkan kode pesanan Anda."
+        }
+      ]
+    },
+    {
+      "id": "pembayaran",
+      "title": "Pembayaran",
+      "items": [
+        {
+          "q": "Metode pembayaran apa saja yang tersedia?",
+          "a": "Toko ini menerima pembayaran non-tunai melalui QRIS (bisa dipindai dari aplikasi bank atau dompet digital manapun) serta transfer bank ke rekening resmi Kas OSIS yang tertera di halaman Pembayaran."
+        },
+        {
+          "q": "Bagaimana jika saya tidak bisa langsung scan QRIS atau transfer saat checkout?",
+          "a": "Anda boleh menyelesaikan pembayaran belakangan. Akses kembali halaman Status Pesanan dengan kode pesanan Anda, lalu salin instruksi pembayaran dan upload buktinya ketika sudah selesai membayar."
+        },
+        {
+          "q": "Kapan pesanan saya dianggap terverifikasi?",
+          "a": "Begitu tim keuangan OSIS mencocokkan bukti unggahan Anda dengan mutasi penerimaan, status pesanan akan berubah menjadi Terverifikasi — biasanya maksimal satu hari sekolah."
+        }
+      ]
+    },
+    {
+      "id": "pengambilan",
+      "title": "Pengambilan",
+      "items": [
+        {
+          "q": "Di mana dan kapan merchandise diambil?",
+          "a": "Pengambilan dilakukan di Ruang 204 (Sekretariat OSIS) pada hari kerja pukul 15.15–16.30 WIB. Bawa tangkapan layar pesanan yang berstatus Siap Diambil."
+        },
+        {
+          "q": "Apakah merchandise bisa diambilkan teman atau kakak kelas saya?",
+          "a": "Bisa. Pencari pesanan hanya perlu menunjukkan kode pesanan sekaligus nama pemesan yang tercantum pada status pesanan Anda."
+        },
+        {
+          "q": "Bagaimana jika produk yang saya pesan ternyata kehabisan stok?",
+          "a": "Stok diperbarui begitu setiap pemesanan terverifikasi. Jika varian yang Anda pilih habis, tim OSIS akan menghubungi Anda untuk memilih varian lain atau memproses pemesanan ulang." 
+        }
+      ]
+    },
+    {
+      "id": "aspirasi",
+      "title": "Aspirasi",
+      "items": [
+        {
+          "q": "Apa itu fitur Aspirasi di toko ini?",
+          "a": "Fitur Aspirasi adalah saluran resmi untuk menyampaikan usul, kritik, maupun ide kegiatan kepada OSIS. Setiap kiriman mendapat kode tiket yang tindak lanjutnya bisa dipantau transparan."
+        },
+        {
+          "q": "Bagaimana cara menyampaikan aspirasi?",
+          "a": "Buka halaman Aspirasi, isi formulir yang tersedia, lalu kirimkan. Sistem langsung memberikan kode tiket yang bisa Anda catat untuk mengecek perkembangannya."
+        },
+        {
+          "q": "Bagaimana saya memantau perkembangan aspirasi saya?",
+          "a": "Masukkan kode tiket pada halaman Status Aspirasi. Status akan berubah dari Diterima, Sedang Ditinjau, Sedang Diproses, hingga Selesai beserta catatan respons pengurus."
+        }
+      ]
+    }
+  ]
+}

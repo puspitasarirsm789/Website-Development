@@ -1,0 +1,68 @@
+[
+  {
+    "id": "div-akademik",
+    "name": "Bidang Akademik",
+    "description": "Mengasah budaya belajar siswa melalui program pendampingan akademik dan pengembangan minat ilmiah.",
+    "services": [
+      "Bimbingan belajar lintas angkatan",
+      "Pendampingan lomba olimpiade",
+      "Kelas eksplorasi topik interdisiplin",
+      "Pojok literasi perpustakaan siswa"
+    ]
+  },
+  {
+    "id": "div-olahraga",
+    "name": "Bidang Olahraga",
+    "description": "Menyelenggarakan kegiatan kebugaran dan kompetasi olahraga untuk menumbuhkan sportivitas siswa.",
+    "services": [
+      "Turnamen basket, futsal, dan voli",
+      "Festival kebugaran tahunan",
+      "Klub olahraga peminjaman alat",
+      "Pendataan prestasi olahraga siswa"
+    ]
+  },
+  {
+    "id": "div-seni-budaya",
+    "name": "Bidang Seni & Budaya",
+    "description": "Memberi panggung bagi bakat seni siswa sekaligus melestarikan seni dan budaya daerah di lingkungan sekolah.",
+    "services": [
+      "Pentas seni tahunan",
+      "Panggung apresiasi siswa bulanan",
+      "Pameran karya seni visual",
+      "Lomba musik angkatan"
+    ]
+  },
+  {
+    "id": "div-kewirausahaan",
+    "name": "Bidang Kewirausahaan",
+    "description": "Melatih jiwa bisnis siswa melalui bazar, pelatihan UMKM sederhana, dan pengelolaan toko merchandise OSIS.",
+    "services": [
+      "Bazar wawasan wirausaha",
+      "Kelas bisnis siswa",
+      "Kurasi produk siswa untuk bazar",
+      "Operator toko merchandise resmi"
+    ]
+  },
+  {
+    "id": "div-lingkungan",
+    "name": "Bidang Lingkungan",
+    "description": "Membangun kebiasaan peduli lingkungan melalui aksi praktis dan kampanye keberlanjutan di sekolah.",
+    "services": [
+      "Bank sampah sinergi sederhana",
+      "Kerja bakti lingkungan sekolah",
+      "Kampanye hemat energi dan air",
+      "Klub berkebun pot tumbuh berkelanjutan"
+    ]
+  },
+  {
+    "id": "div-humas",
+    "name": "Bidang Humas",
+    "description": "Menjadi jembatan komunikasi antara OSIS, siswa, sekolah, dan masyarakat melalui kanal informasi resmi.",
+    "services": [
+      "Kelola media sosial OSIS",
+      "Buletin bulanan dinding sekolah",
+      "Kemitraan alumni dan undangan tamu",
+      "Protokoler dan pergelaran acara"
+    ]
+  }
+]

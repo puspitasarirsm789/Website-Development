@@ -1,0 +1,7 @@
+[
+  { "id": "kaos", "name": "Kaos", "icon": "👕" },
+  { "id": "hoodie", "name": "Hoodie", "icon": "🧥" },
+  { "id": "topi", "name": "Topi", "icon": "🧢" },
+  { "id": "aksesoris", "name": "Aksesoris", "icon": "🎒" },
+  { "id": "stiker", "name": "Stiker", "icon": "✨" }
+]

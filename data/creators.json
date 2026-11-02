@@ -1,0 +1,30 @@
+[
+  {
+    "id": "k01",
+    "name": "Raka Aditya Pratama",
+    "bio": "Penggemar ilustrasi digital yang mulai menggambar sejak SMP dan gemar mengeksplorasi palet warna hangat. Ia percaya desain sederhana bisa menyampaikan pesan paling kuat.",
+    "class_or_group": "Kelas XI-1",
+    "is_active": true
+  },
+  {
+    "id": "k02",
+    "name": "Salsabila Putri Maharani",
+    "bio": "Penulis muda yang gemar bereksperimen dengan tipografi dan komposisi huruf pada karya visual. Desainnya kerap mengangkat sisi hangat kehidupan sekolah.",
+    "class_or_group": "Kelas XI-4",
+    "is_active": true
+  },
+  {
+    "id": "k03",
+    "name": "Dimas Aryo Seno",
+    "bio": "Fotografer amator angkatan XII yang pintu masuknya ke dunia desain dari pengolahan foto dan mockup produk. Kini fokus pada pola grafis minimalis.",
+    "class_or_group": "Kelas XII-3",
+    "is_active": true
+  },
+  {
+    "id": "k04",
+    "name": "Nadia Kirana",
+    "bio": "Anggota kirab seni budaya yang menekuni ilustrasi bercirikan flora dan fauna lokal. Karyanya sering mengusung warna segar dengan sentuhan ceria namun elegan.",
+    "class_or_group": "Kelas X-5",
+    "is_active": true
+  }
+]

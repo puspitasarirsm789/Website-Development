@@ -1,0 +1,6 @@
+# robots.txt — Toko Merchandise OSIS SMANIC (GitHub Pages)
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+Sitemap: https://smanic-contoh.github.io/merch/sitemap.xml

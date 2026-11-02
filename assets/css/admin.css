@@ -1,0 +1,166 @@
+/* =====================================================================
+   admin.css — Lapisan area admin (/admin/)
+   ---------------------------------------------------------------------
+   Melengkapi main.css (wajib dimuat bersama): layout sidebar-wide,
+   topbar, tabel data, dan panel kerja admin. Semua path aset dari
+   halaman /admin/ memakai ../relatif (GitHub Pages sub-path safe).
+   ===================================================================== */
+
+/* 1. Kerangka layout */
+.admin-layout {
+  display: flex;
+  min-height: 100dvh;
+}
+
+.admin-sidebar {
+  display: none;
+}
+
+.admin-shell {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-topbar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-height: 4rem;
+  padding-inline: clamp(var(--space-4), 4vw, var(--space-6));
+  background: color-mix(in srgb, var(--color-surface) 88%, transparent);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.admin-topbar__title {
+  font-size: var(--text-lg);
+  letter-spacing: var(--ls-lg);
+}
+
+.admin-main {
+  flex: 1;
+  width: 100%;
+  max-width: 1400px;
+  margin-inline: auto;
+  padding: clamp(var(--space-4), 4vw, var(--space-8));
+}
+
+/* 2. Sidebar (≥768px) */
+@media (min-width: 768px) {
+  .admin-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-5);
+    position: sticky;
+    top: 0;
+    width: 260px;
+    height: 100dvh;
+    padding: var(--space-6) var(--space-4);
+    background: var(--color-surface);
+    border-right: 1px solid var(--color-border);
+    overflow-y: auto;
+  }
+}
+
+.admin-sidebar__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding-inline: var(--space-2);
+}
+
+.admin-sidebar__title {
+  display: block;
+  font-weight: var(--fw-bold);
+  font-size: var(--text-sm);
+}
+
+.admin-sidebar__subtitle {
+  display: block;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+.admin-sidebar__nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.admin-sidebar__link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  font-weight: var(--fw-medium);
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.admin-sidebar__link:hover {
+  background: var(--color-primary-light);
+  color: var(--color-primary-dark);
+}
+
+.admin-sidebar__link[aria-current="page"] {
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: var(--fw-semibold);
+}
+
+.admin-sidebar__back {
+  margin-top: auto;
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-border);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.admin-sidebar__back:hover { color: var(--color-primary-dark); }
+
+/* 3. Panel & tabel kerja admin */
+.admin-panel {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-5);
+}
+
+.admin-panel__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.admin-panel__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.admin-table-wrapper {
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+/* 4. Mobile topbar menampilkan tombol menu sidebar (dikelola admin-core.js) */
+.admin-topbar .nav__toggle { display: inline-flex; }
+
+@media (min-width: 768px) {
+  .admin-topbar .nav__toggle { display: none; }
+}

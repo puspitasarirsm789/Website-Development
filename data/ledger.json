@@ -1,0 +1,36 @@
+{
+  "_note": "Contoh catatan buku kas (ledger) bagi hasil merchandise untuk pengujian antarmuka. Besaran sesuai osis_fee_percent pada config.json.",
+  "osis_fee_percent": 10,
+  "records": [
+    {
+      "id": "LSD-2026-09",
+      "period": "September 2026",
+      "description": "Penyetoran bagi hasil penjualan merchandise batch Agustus (10%) ke kas OSIS",
+      "amount": 1250000,
+      "status": "selesai",
+      "verified_by": "Bendahara OSIS",
+      "recorded_at": "2026-10-03T10:20:00+07:00",
+      "note": "Bukti transfer diarsipkan pada berkas A-02."
+    },
+    {
+      "id": "LSD-2026-10",
+      "period": "Oktober 2026",
+      "description": "Bagi hasil penjualan batch September setelah penyesuaian penuntasan pengiriman",
+      "amount": 980000,
+      "status": "terverifikasi",
+      "verified_by": "Pembina OSIS",
+      "recorded_at": "2026-10-31T16:05:00+07:00",
+      "note": null
+    },
+    {
+      "id": "LSD-2026-11",
+      "period": "November 2026",
+      "description": "Pembelian bahan baku stiker untuk batch November",
+      "amount": 275000,
+      "status": "menunggu-persetujuan",
+      "verified_by": null,
+      "recorded_at": "2026-11-02T08:45:00+07:00",
+      "note": "Menunggu persetujuan pembina sebelum pengeluaran dana."
+    }
+  ]
+}

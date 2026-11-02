@@ -1,0 +1,278 @@
+[
+  {
+    "id": "kaos-jelajah",
+    "name": "Kaos T-Shirt Jelajah",
+    "category_id": "kaos",
+    "creator_id": "k02",
+    "description": "Kaos katun combed 30s dengan grafis tipografi hangat bertema jelajah sekolah. Nyaman dipakai harian maupun acara OSIS.",
+    "price": 85000,
+    "image": "./assets/img/produk/kaos-jelajah.svg",
+    "image_width": 800,
+    "image_height": 800,
+    "variants": [
+      {
+        "name": "Ukuran S",
+        "stock": 12
+      },
+      {
+        "name": "Ukuran M",
+        "stock": 24
+      },
+      {
+        "name": "Ukuran L",
+        "stock": 18
+      },
+      {
+        "name": "Ukuran XL",
+        "stock": 8
+      }
+    ],
+    "is_active": true
+  },
+  {
+    "id": "kaos-grafis-langit",
+    "name": "Kaos Grafis Langit",
+    "category_id": "kaos",
+    "creator_id": "k01",
+    "description": "Ilustrasi langit sore di atas gedung sekolah, digambar langsung oleh kreator kelas XI. Sablon plastisol tahan cuci.",
+    "price": 95000,
+    "image": "./assets/img/produk/kaos-grafis-langit.svg",
+    "image_width": 800,
+    "image_height": 800,
+    "variants": [
+      {
+        "name": "Ukuran S",
+        "stock": 10
+      },
+      {
+        "name": "Ukuran M",
+        "stock": 20
+      },
+      {
+        "name": "Ukuran L",
+        "stock": 14
+      },
+      {
+        "name": "Ukuran XL",
+        "stock": 6
+      }
+    ],
+    "is_active": true
+  },
+  {
+    "id": "hoodie-angkasa",
+    "name": "Hoodie Pullover Angkasa",
+    "category_id": "hoodie",
+    "creator_id": "k03",
+    "description": "Hoodie fleece tebal berbahan lembut dengan bordir kecil di dada dan grafis angkasa di punggung. Edisi batch terakhir.",
+    "price": 185000,
+    "image": "./assets/img/produk/hoodie-angkasa.svg",
+    "image_width": 800,
+    "image_height": 800,
+    "variants": [
+      {
+        "name": "Ukuran S",
+        "stock": 0
+      },
+      {
+        "name": "Ukuran M",
+        "stock": 0
+      },
+      {
+        "name": "Ukuran L",
+        "stock": 0
+      },
+      {
+        "name": "Ukuran XL",
+        "stock": 0
+      }
+    ],
+    "is_active": true
+  },
+  {
+    "id": "hoodie-zip-armada",
+    "name": "Hoodie Zip Armada",
+    "category_id": "hoodie",
+    "creator_id": "k02",
+    "description": "Hoodie zipper premium dengan pilihan warna pekat, jahitan rapi, dan label tenun eksklusif OSIS di bagian dalam.",
+    "price": 165000,
+    "image": "./assets/img/produk/hoodie-zip-armada.svg",
+    "image_width": 800,
+    "image_height": 800,
+    "variants": [
+      {
+        "name": "Warna Hitam",
+        "stock": 9
+      },
+      {
+        "name": "Warna Maroon",
+        "stock": 7
+      },
+      {
+        "name": "Warna Krem",
+        "stock": 4
+      }
+    ],
+    "is_active": true
+  },
+  {
+    "id": "topi-snapback-senja",
+    "name": "Topi Snapback Senja",
+    "category_id": "topi",
+    "creator_id": "k04",
+    "description": "Snapback bertekstur twill dengan bordir logo siluet sekolah dan topi dalam berwarna kontras. Fitnya bisa diatur.",
+    "price": 68000,
+    "image": "./assets/img/produk/topi-snapback-senja.svg",
+    "image_width": 800,
+    "image_height": 800,
+    "variants": [
+      {
+        "name": "One Size",
+        "stock": 22
+      }
+    ],
+    "is_active": true
+  },
+  {
+    "id": "topi-kanvas-teratai",
+    "name": "Topi Kanvas Teratai",
+    "category_id": "topi",
+    "creator_id": "k01",
+    "description": "Topi bucket kanvas ringan dengan ilustrasi teratai karya kreator X-5. Cocok dipakai saat kegiatan luar ruangan.",
+    "price": 58000,
+    "image": "./assets/img/produk/topi-kanvas-teratai.svg",
+    "image_width": 800,
+    "image_height": 800,
+    "variants": [
+      {
+        "name": "Warna Beige",
+        "stock": 11
+      },
+      {
+        "name": "Warna Hitam",
+        "stock": 8
+      }
+    ],
+    "is_active": true
+  },
+  {
+    "id": "tumbler-teras",
+    "name": "Tumbler Teras",
+    "category_id": "aksesoris",
+    "creator_id": "k03",
+    "description": "Tumbler stainless 400 ml yang mampu menahan suhu minuman hingga 6 jam, dengan desain grafis motif teras sekolah.",
+    "price": 95000,
+    "image": "./assets/img/produk/tumbler-teras.svg",
+    "image_width": 800,
+    "image_height": 800,
+    "variants": [
+      {
+        "name": "400 ml",
+        "stock": 15
+      }
+    ],
+    "is_active": true
+  },
+  {
+    "id": "lanyard-kartu-osis",
+    "name": "Lanyard + Kartu Identitas OSIS",
+    "category_id": "aksesoris",
+    "creator_id": "k02",
+    "description": "Lanyard pita dupleks dengan kartu identitas resmi pengelola merchandise, dilengkapi housing transparan dengan tahan sobek ringan.",
+    "price": 48000,
+    "image": "./assets/img/produk/lanyard-kartu-osis.svg",
+    "image_width": 800,
+    "image_height": 800,
+    "variants": [
+      {
+        "name": "Standar",
+        "stock": 40
+      }
+    ],
+    "is_active": true
+  },
+  {
+    "id": "gantungan-kunci-tanis",
+    "name": "Gantungan Kunci Tanis",
+    "category_id": "aksesoris",
+    "creator_id": "k01",
+    "description": "Gantungan kunci akrilik berdinding tebal dengan motif flora lokal, lengkap dengan ring besi berlapis dan tali rami kecil yang nyaman digenggam.",
+    "price": 55000,
+    "image": "./assets/img/produk/gantungan-kunci-tanis.svg",
+    "image_width": 800,
+    "image_height": 800,
+    "variants": [
+      {
+        "name": "Satu Set",
+        "stock": 18
+      }
+    ],
+    "is_active": true
+  },
+  {
+    "id": "stiker-paket-motto",
+    "name": "Stiker Paket Motto (Isi 12 Lembar)",
+    "category_id": "stiker",
+    "creator_id": "k03",
+    "description": "Paket 12 stiker motif matte besar dengan kutipan persaudaraan angkatan. Nyaman ditempel di buku catatan dan laptop.",
+    "price": 50000,
+    "image": "./assets/img/produk/stiker-paket-motto.svg",
+    "image_width": 800,
+    "image_height": 800,
+    "variants": [
+      {
+        "name": "A6 · 12 Lembar",
+        "stock": 35
+      }
+    ],
+    "is_active": true
+  },
+  {
+    "id": "kaos-polo-etam",
+    "name": "Kaos Polo Etam",
+    "category_id": "kaos",
+    "creator_id": "k04",
+    "description": "Kaos polo pique dengan kerah kontras dan benang jahit tahan kusut, cocok dipakai saat praktik kerja lapangan maupun acara resmi sekolah.",
+    "price": 120000,
+    "image": "./assets/img/produk/kaos-polo-etam.svg",
+    "image_width": 800,
+    "image_height": 800,
+    "variants": [
+      {
+        "name": "Ukuran S",
+        "stock": 8
+      },
+      {
+        "name": "Ukuran M",
+        "stock": 15
+      },
+      {
+        "name": "Ukuran L",
+        "stock": 12
+      },
+      {
+        "name": "Ukuran XL",
+        "stock": 5
+      }
+    ],
+    "is_active": true
+  },
+  {
+    "id": "stiker-cutting-ekspresi",
+    "name": "Stiker Cutting Ekspresi",
+    "category_id": "stiker",
+    "creator_id": "k01",
+    "description": "Stiker cutting presisi berbentuk ekspresi wajah khas kartun siswa, dibuat dari vinyl tahan air sesuai batch edisi terbatas.",
+    "price": 45000,
+    "image": "./assets/img/produk/stiker-cutting-ekspresi.svg",
+    "image_width": 800,
+    "image_height": 800,
+    "variants": [
+      {
+        "name": "Satu Set",
+        "stock": 0
+      }
+    ],
+    "is_active": true
+  }
+]

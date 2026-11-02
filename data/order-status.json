@@ -1,0 +1,57 @@
+{
+  "_note": "Contoh data status pesanan untuk pengujian antarmuka. Data nyata pengguna tersimpan di localStorage (kunci: merch_orders_v1).",
+  "status_terms": {
+    "menunggu-pembayaran": "Menunggu Pembayaran",
+    "terverifikasi": "Pembayaran Terverifikasi",
+    "sedang-disiapkan": "Sedang Disiapkan",
+    "siap-diambil": "Siap Diambil",
+    "selesai": "Selesai"
+  },
+  "records": [
+    {
+      "order_code": "ORD-2026-0181",
+      "items_summary": "Kaos T-Shirt Jelajah · 1 (Ukuran M)",
+      "total": 85000,
+      "status": "menunggu-pembayaran",
+      "created_at": "2026-10-30T09:12:00+07:00",
+      "updated_at": "2026-10-30T09:12:00+07:00",
+      "pickup_note": null
+    },
+    {
+      "order_code": "ORD-2026-0176",
+      "items_summary": "Hoodie Zip Armada · 1 (Warna Hitam) + Lanyard + Kartu Identitas OSIS · 1",
+      "total": 213000,
+      "status": "terverifikasi",
+      "created_at": "2026-10-28T14:40:00+07:00",
+      "updated_at": "2026-10-29T08:05:00+07:00",
+      "pickup_note": "Masuk antrean produksi batch November."
+    },
+    {
+      "order_code": "ORD-2026-0152",
+      "items_summary": "Topi Snapback Senja · 2",
+      "total": 136000,
+      "status": "sedang-disiapkan",
+      "created_at": "2026-10-22T10:18:00+07:00",
+      "updated_at": "2026-10-26T16:32:00+07:00",
+      "pickup_note": "Estimasi siap diambil 5 November 2026."
+    },
+    {
+      "order_code": "ORD-2026-0119",
+      "items_summary": "Tumbler Teras · 1",
+      "total": 95000,
+      "status": "siap-diambil",
+      "created_at": "2026-10-14T13:05:00+07:00",
+      "updated_at": "2026-10-17T09:47:00+07:00",
+      "pickup_note": "Ambil di Ruang 204, pukul 15.15–16.30 WIB."
+    },
+    {
+      "order_code": "ORD-2026-0087",
+      "items_summary": "Stiker Paket Motto · 2",
+      "total": 100000,
+      "status": "selesai",
+      "created_at": "2026-09-29T08:22:00+07:00",
+      "updated_at": "2026-10-15T15:58:00+07:00",
+      "pickup_note": "Diambil 15 Oktober 2026 oleh pemesan."
+    }
+  ]
+}
